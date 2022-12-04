@@ -1,1 +1,1 @@
-web: gunicorn bloodbankmanagement:wsgi
+web: gunicorn --pythonpath app app.wsgi
